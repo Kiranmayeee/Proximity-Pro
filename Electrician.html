@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Electrician</title>
+    <style type="text/css">
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #54677c;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #e4e4e4;
+    display: flex;
+    /* Responsive behaviour */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 16px;
+}
+
+.card {
+    position: relative;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
+    padding: 16px;
+    margin:  56px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 15px 35px -15px rgba(0, 0, 0, 0.5),
+    0 5px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.card-image img {
+    width: 100%;
+    transform: scale(1.2);
+}
+
+p {
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.name {
+    margin-top: 80px;
+    font-size: 1.4em;
+    color: #333;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    margin-bottom: 8px;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    margin: 12px 8px;
+    width: 44px;
+    height: 44px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: opacity 0.4s;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button i {
+    color: #fff;
+    font-size: 1.4em;
+}
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="card-image">
+            <img src="C:\Users\jayas\Desktop\Proximity Pro\Electrician1.jpeg" alt="Profile image">
+        </div>
+        <p class="name">Aarav</p>
+        <p>Electrician</p>
+        <p>Service Area: Aganampudi</p>
+        <p>Availability: 10:30 AM - 7:00 PM</p>
+        <p>Experience  : 15 years</p>
+        <div class="socials">
+            <button class="rate"><a href="C:\Program Files\Sublime Text\rating.html"><i class="fa-solid fa-thumbs-up" style="color: #7bd7ea;"></i></a></button>
+            <button class="phone"><a href="tel:+919160049499"><i class="fa-solid fa-phone-volume" style="color: #da1025;"></i></a></button>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-image">
+            <img src="C:\Users\jayas\Desktop\Proximity Pro\Electrician2.jpg" alt="Profile image">
+        </div>
+        <p class="name">Ishaan </p>
+        <p>Electrician</p>
+        <p>Service Area: Akkayyapalem</p>
+        <p>Availability: 10:00 AM - 5:00 PM</p>
+        <p>Experience  : 20 years</p>
+        <div class="socials">
+            <button class="rate"><a href="C:\Program Files\Sublime Text\rating.html"><i class="fa-solid fa-thumbs-up" style="color: #7bd7ea;"></i></a></button>
+             <button class="phone"><a href="tel:+919160049499"><i class="fa-solid fa-phone-volume" style="color: #da1025;"></i></a></button>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-image">
+            <img src="C:\Users\jayas\Desktop\Proximity Pro\Electrician3.png" alt="Profile image">
+        </div>
+        <p class="name">Aarush</p>
+        <p>Electrician</p>
+        <p>Service Area: Gajuwaka</p>
+        <p>Availability: 9:00 AM - 5:00 PM</p>
+        <p>Experience  : 10 years</p>
+        <div class="socials">
+            <button class="rate"><a href="C:\Program Files\Sublime Text\rating.html"><i class="fa-solid fa-thumbs-up" style="color: #7bd7ea;"></i></a></button>
+             <button class="phone"><a href="tel:+919160049499"><i class="fa-solid fa-phone-volume" style="color: #da1025;"></i></a></button>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-image">
+            <img src="C:\Users\jayas\Desktop\Proximity Pro\Electrician4.jpg" alt="Profile image">
+        </div>
+        <p class="name">Aditya</p>
+        <p>Electrician</p>
+        <p>Service Area: Rushikonda</p>
+        <p>Availability: 9:30 AM - 4:00 PM</p>
+        <p>Experience  : 6 years</p>
+        <div class="socials">
+            <button class="rate"><a href="C:\Program Files\Sublime Text\rating.html"><i class="fa-solid fa-thumbs-up" style="color: #7bd7ea;"></i></a></button>
+             <button class="phone"><a href="tel:+919160049499"><i class="fa-solid fa-phone-volume" style="color: #da1025;"></i></a></button>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-image">
+            <img src="C:\Users\jayas\Desktop\Proximity Pro\Electrician5.jpeg" alt="Profile image">
+        </div>
+        <p class="name">Kriti</p>
+        <p>Electrician</p>
+        <p>Service Area: Atchutapuram</p>
+        <p>Availability: 11:00 AM - 7:00 PM</p>
+        <p>Experience  : 7 years</p>
+        <div class="socials">
+            <button class="rate"><a href="C:\Program Files\Sublime Text\rating.html"><i class="fa-solid fa-thumbs-up" style="color: #7bd7ea;"></i></a></button>
+             <button class="phone"><a href="tel:+919160049499"><i class="fa-solid fa-phone-volume" style="color: #da1025;"></i></a></button>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-image">
+            <img src="C:\Users\jayas\Desktop\Proximity Pro\Electrician6.jpg" alt="Profile image">
+        </div>
+        <p class="name">kavya</p>
+        <p>Electrician</p>
+        <p>Service Area: Paravada</p>
+        <p>Availability: 10:00 AM - 6:30 PM</p>
+        <p>Experience  : 14 years</p>
+        <div class="socials">
+            <button class="rate"><a href="C:\Program Files\Sublime Text\rating.html"><i class="fa-solid fa-thumbs-up" style="color: #7bd7ea;"></i></a></button>
+             <button class="phone"><a href="tel:+919160049499"><i class="fa-solid fa-phone-volume" style="color: #da1025;"></i></a></button>
+        </div>
+    </div>
+    
+</body>
+</html>
